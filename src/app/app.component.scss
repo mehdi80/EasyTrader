@@ -1,0 +1,12 @@
+* *::after *::before *:focus {
+    box-sizing: border-box;
+    outline: none !important;
+}
+.d-main {
+    height: 100%;
+    position: relative;
+    padding-right: calc(.25rem + 41px);
+    min-width: 992px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
