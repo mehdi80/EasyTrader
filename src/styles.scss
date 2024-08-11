@@ -1,11 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap/scss/bootstrap";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
 
-body {
-    background-color: #4f6883;
+
+@font-face {
+  font-family: 'IRANsans';
+  src: url('assets/Fonts/irsans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+  font-family: 'IRANsansb';
+  src: url('assets/Fonts/irsansb.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  background-color: #4f6883;
+  margin: 0;
+  font-family:IRANsans sans-serif;
+  height: 100%;
+}
