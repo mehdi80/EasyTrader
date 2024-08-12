@@ -1,0 +1,133 @@
+[
+      {
+        "id": 1,
+        "name": "فلزات",
+        "iconSrc": "assets/search-list-image/m.svg"
+      },
+      {
+        "id": 2,
+        "name": "خودرویی",
+        "iconSrc": "assets/search-list-image/car.svg"
+      },
+      {
+        "id": 3,
+        "name": "شیمیایی",
+        "iconSrc": "assets/search-list-image/chemical.svg"
+      },
+      {
+        "id": 4,
+        "name": "بانکی",
+        "iconSrc": "assets/search-list-image/bank.svg"
+      },
+      {
+        "id": 5,
+        "name": "سیمان",
+        "iconSrc": "assets/search-list-image/seman.svg"
+      },
+      {
+        "id": 6,
+        "name": "فراورده نفتی",
+        "iconSrc": "assets/search-list-image/fuel.svg"
+      },
+      {
+        "id": 7,
+        "name": "سرمایه گذاری",
+        "iconSrc": "assets/search-list-image/insurance.svg"
+      },
+      {
+        "id": 8,
+        "name": "استخراج فلزات",
+        "iconSrc": "assets/search-list-image/.svg"
+      },
+      {
+        "id": 9,
+        "name": "ساختمان",
+        "iconSrc": "assets/search-list-image/home.svg"
+      },
+      {
+        "id": 10,
+        "name": "کانی غیرفلزی",
+        "iconSrc": "assets/search-list-image/mineral.svg"
+      },
+      {
+        "id": 11,
+        "name": "بیمه",
+        "iconSrc": "assets/search-list-image/insurance.svg"
+      },
+      {
+        "id": 12,
+        "name": "دارویی",
+        "iconSrc": "assets/search-list-image/medicine.svg"
+      },
+      {
+        "id": 13,
+        "name": "غذایی",
+        "iconSrc": "assets/search-list-image/food.svg"
+      },
+      {
+        "id": 14,
+        "name": "واستهگری مالی",
+        "iconSrc": "assets/search-list-image/bag.svg"
+      },
+      {
+        "id": 15,
+        "name": "قند",
+        "iconSrc": "assets/search-list-image/sugar.svg"
+      },
+      {
+        "id": 16,
+        "name": "زراعت",
+        "iconSrc": "assets/search-list-image/wheat.svg"
+      },
+      {
+        "id": 17,
+        "name": "رایانه",
+        "iconSrc": "assets/search-list-image/computer.svg"
+      },
+      {
+        "id": 18,
+        "name": "حمل و نقل",
+        "iconSrc": "assets/search-list-image/travel.svg"
+      },
+      {
+        "id": 19,
+        "name": "پیمانکاری",
+        "iconSrc": "assets/search-list-image/tools.svg"
+      },
+      {
+        "id": 20,
+        "name": "کاشی",
+        "iconSrc": "assets/search-list-image/tile.svg"
+      },
+      {
+        "id": 21,
+        "name": "ساخت فلزی",
+        "iconSrc": "assets/search-list-image/metal-construction.svg"
+      },
+      {
+        "id": 22,
+        "name": "لاستیک",
+        "iconSrc": "assets/search-list-image/rubber.svg"
+      },
+      {
+        "id": 23,
+        "name": "دستگاه های برقی",
+        "iconSrc": "assets/search-list-image/electricity.svg"
+      },
+      {
+        "id": 24,
+        "name": "تولید برق",
+        "iconSrc": "assets/search-list-image/power-tower.svg"
+      },
+      {
+        "id": 25,
+        "name": "تسهیلات مسکن",
+        "iconSrc": "assets/search-list-image/home2.svg"
+      },
+      {
+        "id": 26,
+        "name": "صندوق ETF",
+        "iconSrc": "assets/search-list-image/etf.svg"
+      }
+    ]
+
