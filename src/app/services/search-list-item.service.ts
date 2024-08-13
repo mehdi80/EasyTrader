@@ -7,7 +7,7 @@ import {IsearchList} from "../model/isearch-list";
   providedIn: 'root'
 })
 export class SearchListItemService {
-  private SearchListItemUrl = '../server';
+  private SearchListItemUrl = 'assets/server/symbols-mock.json';
 
 constructor(private http: HttpClient) { }
 
