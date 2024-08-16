@@ -1,20 +1,20 @@
-<p class="mx-3">صنایع منتخب</p>
 
-<ul class="flex flex-wrap gap-4 p-6 justify-center text-lg">
-  <li class="flex-grow text-black rounded-md bg-white"
-  *ngFor="let list of searchList">
-    <a
-      class="d-flex flex-column gap-1 align-items-center justify-content-center rounded p-2 py-3 bg-principal bg-principal-4x-dark bg-principal-hover sector-item cup text-body"
-      style="max-height: 70px;"
-      id="search-panel-sector-27-a">
+  <p class="mx-3 mt-3.5">صنایع منتخب</p>
+
+  <ul class="flex flex-wrap mr-2 gap-2 py-2.5 text-lg">
+    <li class="basis-1/4 rounded-md bg-white shrink hover:cursor-pointer cvt"
+        *ngFor="let list of searchList">
+      <a
+        class="d-flex flex-column py-2.5 align-items-center"
+        id="search-panel-sector-27-a">
       <span
         class="text-muted"
         id="search-panel-sector-27-span">
-        <img alt="{{list.name}}" width="25" height="25" src="{{list.iconSrc}}"/>
+        <img alt="{{list.name}}" width="22" height="22" src="{{list.iconSrc}}"/>
       </span>
 
-    {{list.name}}
-    </a>
-  </li>
+        {{ list.name }}
+      </a>
+    </li>
+  </ul>
 
-</ul>

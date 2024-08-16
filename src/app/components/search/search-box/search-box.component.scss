@@ -1,0 +1,12 @@
+input{
+  font-size: 13px;
+  ::placeholder {
+    font-size: 13px;
+  };
+  :focus {
+    background-color: #f2f2f2;
+  }
+}
+:focus {
+  background-color: #f2f2f2;
+}
