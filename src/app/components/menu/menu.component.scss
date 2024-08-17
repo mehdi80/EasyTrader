@@ -1,3 +1,5 @@
+@import '../../../styles/variables';
+
 .menu {
   position: fixed;
   top: 0;
@@ -5,34 +7,36 @@
   right: 0;
   width: 2.25rem;
 }
-
 .menu-item {
   cursor: pointer;
-}
 
+}
+.menu-item:hover {
+  border-radius: 100%;
+  background-color: rgb(247 254 231);
+  color: $bg-color;
+}
 .full-offset {
   inset: 0 !important;
 }
-
 .menu-item-tab {
-  color: #4f6883;
+  color: $bg-color;
   margin-bottom: 1px;
-  background: 0 6px color-mix(in srgb, #4f6883, #000 40%);
+  background: 0 6px color-mix(in srgb, $bg-color, #000 40%);
 }
 
 .menu-scrollable-items {
   position: relative;
-}
-
-.menu-scrollable-items:before, .menu-scrollable-items:after {
-  content: "";
-  position: absolute;
-  height: 35px;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  background: linear-gradient(0, rgba(var(--color-base-rgb), 0), rgba(var(--color-base-rgb), 1) 20%);
+  :before,:after {
+    content: "";
+    position: absolute;
+    height: 35px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: linear-gradient(0, rgba(var(--color-base-rgb), 0), rgba(var(--color-base-rgb), 1) 20%);
+  }
 }
 
 .cup {
@@ -41,13 +45,7 @@
 
 .icon-chevron-up, .icon-chevron-down {
   display: block !important;
-  background-color: #4f6883;
-}
-
-.menu-item:hover {
-  border-radius: 100%;
-  background-color: rgb(247 254 231);
-  color: #4f6883;
+  background-color: $bg-color;
 }
 
 .writing-mode {
@@ -61,8 +59,8 @@
   ::-webkit-scrollbar {
     display: none;
   }
-
   -ms-overflow-style: none;
   scrollbar-width: none;
 
 }
+

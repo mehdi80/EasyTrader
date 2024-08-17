@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Eazy-Trader": {
+    "Easy-Trader": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/eazy-trader",
+            "outputPath": "dist/easy-trader",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Eazy-Trader:build:production"
+              "buildTarget": "Easy-Trader:build:production"
             },
             "development": {
-              "buildTarget": "Eazy-Trader:build:development"
+              "buildTarget": "Easy-Trader:build:development"
             }
           },
           "defaultConfiguration": "development"
