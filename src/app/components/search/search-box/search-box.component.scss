@@ -1,12 +1,11 @@
+@import '../../../../styles/variables';
+
 input{
-  font-size: 13px;
+  font-size: $font-size-base;
   ::placeholder {
-    font-size: 13px;
+    font-size: $font-size-base;
   };
   :focus {
-    background-color: #f2f2f2;
+    background-color: $bg-list-focus;
   }
-}
-:focus {
-  background-color: #f2f2f2;
 }

@@ -11,5 +11,5 @@ import {SearchComponent} from "./components/search/search.component";
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Eazy-Trader';
+  title = 'Easy-Trader';
 }
