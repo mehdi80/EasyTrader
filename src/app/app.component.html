@@ -1,5 +1,11 @@
 <main class="d-main py-0" style="font-size: 14px">
   <app-menu></app-menu>
 
-  <app-search *ngIf="isSearchVisible"></app-search>
+  <app-search *ngIf="isSearchVisible" [ngClass]="{
+    'slide-right-show': isSearchVisible,
+    'slide-right-down': !isSearchVisible
+  }"></app-search>
+
 </main>
+
+

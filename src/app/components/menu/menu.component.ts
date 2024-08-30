@@ -5,7 +5,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet} from "@angular/router";
 import {NgIf} from "@angular/common";
 import {SearchComponent} from "../search/search.component";
 import {BtnHideShowVisibility} from "../../services/btn-hide-show-visibility";
-
+import {BtnStyleDirective} from "../../directives/btn-styles.directive"
 @Component({
   selector: 'app-menu',
   standalone: true,
@@ -16,7 +16,8 @@ import {BtnHideShowVisibility} from "../../services/btn-hide-show-visibility";
     RouterLinkActive,
     RouterOutlet,
     NgIf,
-    SearchComponent
+    SearchComponent,
+    BtnStyleDirective
   ],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.scss'
