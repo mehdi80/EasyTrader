@@ -15,4 +15,4 @@ constructor(private http: HttpClient) { }
     return this.http.get<IsearchList[]>(this.SearchListItemUrl);
   }
 }
-// salam
+

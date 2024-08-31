@@ -10,3 +10,26 @@
     padding-top: 2px;
     padding-bottom: 2px;
 }
+.slide-right-show {
+  position: fixed;
+  right: 41px;
+  top:0;
+  bottom:0;
+  animation-name: show;
+  animation-duration: 0.5s;
+}
+
+@keyframes show {
+  0% { right:0px; top:0px;}
+  100% { right:41px; top:0px;}
+}
+
+.slide-right-down {
+  animation-name: down;
+  animation-duration: 0.5s;
+}
+
+@keyframes down {
+  0% { right:41px; top:0px;}
+  100% { right:0px; top:0px;}
+}
