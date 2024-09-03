@@ -4,11 +4,12 @@ import { MenuComponent } from "./components/menu/menu.component";
 import {SearchComponent} from "./components/search/search.component";
 import {NgClass, NgIf} from "@angular/common";
 import {BtnHideShowVisibility} from "./services/btn-hide-show-visibility";
+import {MarketWatchComponent} from "./components/market-watch/market-watch.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MenuComponent, SearchComponent, NgIf, NgClass],
+  imports: [RouterOutlet, MenuComponent, SearchComponent, NgIf, NgClass, MarketWatchComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

@@ -1,0 +1,22 @@
+@import '../../../styles/variables';
+
+.main{
+  background-color:$bg-hover-active;
+  max-width: 99.5%;
+  height: 690px;
+  margin: 2px 0 2px 2px;
+}
+.bg-color{
+  background-color: $bg-list-focus;
+}
+.bg-i-color{
+  background-color: $bg-color;
+  color: $bg-list-focus;
+}
+.text-color{
+  color: $text-color;
+}
+.icn-hover:hover{
+  background-color:$bg-hover-active;
+
+}

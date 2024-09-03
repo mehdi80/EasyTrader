@@ -1,4 +1,5 @@
+@import '../../../styles/variables';
 .main{
-  background: #dee3ec;
+  background: $bg-hover-active;
   max-width: 500px;
 }
