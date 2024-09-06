@@ -17,12 +17,16 @@ export class AppComponent implements OnInit{
   title = 'Easy-Trader';
 
   isSearchVisible = false;
+  isMarketWatchVisible = true;
 
   constructor(private btnHideShowVisibility: BtnHideShowVisibility) {}
 
   ngOnInit() {
     this.btnHideShowVisibility.getVisibility('search').subscribe(visible => {
       this.isSearchVisible = visible;
+    });
+    this.btnHideShowVisibility.getVisibility('watcher').subscribe(visible => {
+      this.isMarketWatchVisible = visible;
     });
   }
 }

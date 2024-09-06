@@ -1,4 +1,4 @@
-<main class="d-main py-0" style="font-size: 14px">
+<main class="d-main py-0" style="font-size: 13px">
   <app-menu></app-menu>
 
   <app-search *ngIf="isSearchVisible" [ngClass]="{
@@ -6,7 +6,5 @@
     'slide-right-down': !isSearchVisible
   }"></app-search>
 
-  <app-market-watch></app-market-watch>
+  <app-market-watch *ngIf="isMarketWatchVisible" class="fixed" style="right:41px; width:97%"></app-market-watch>
 </main>
-
-

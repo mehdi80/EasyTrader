@@ -1,5 +1,5 @@
-export interface IsearchList {
-  id: number;
-  name: string;
-  iconSrc: string;
-}
+ export interface IsearchList {
+   id: number;
+   name: string;
+   iconSrc: string;
+ }

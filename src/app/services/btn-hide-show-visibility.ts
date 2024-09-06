@@ -7,7 +7,9 @@ import { BehaviorSubject } from 'rxjs';
 export class BtnHideShowVisibility {
   private visibilitySubjects: { [key: string]: BehaviorSubject<boolean> } = {};
 
-  constructor() {}
+  constructor() {
+    this.visibilitySubjects['watcher'] = new BehaviorSubject<boolean>(true)
+  }
 
   // متد برای ایجاد یک BehaviorSubject جدید برای هر کلید
   private getVisibilitySubject(key: string): BehaviorSubject<boolean> {

@@ -68,4 +68,8 @@ export class MenuComponent implements OnInit{
   toggleSearch() {
     this.btnHideShowVisibility.toggleVisibility('search');
   }
+
+  toggleWatcher(){
+    this.btnHideShowVisibility.toggleVisibility('watcher');
+  }
 }

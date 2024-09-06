@@ -15,13 +15,14 @@
   right: 41px;
   top:0;
   bottom:0;
+  z-index: 1;
   animation-name: show;
   animation-duration: 0.5s;
 }
 
 @keyframes show {
-  0% { right:0px; top:0px;}
-  100% { right:41px; top:0px;}
+  0% { right:0; top:0;}
+  100% { right:41px; top:0;}
 }
 
 .slide-right-down {
@@ -30,6 +31,6 @@
 }
 
 @keyframes down {
-  0% { right:41px; top:0px;}
-  100% { right:0px; top:0px;}
+  0% { right:41px; top:0;}
+  100% { right:0; top:0;}
 }

@@ -8,45 +8,82 @@
   left: 0;
   width: 2.25rem;
 }
+
 .menu-item:hover {
   border-radius: 100%;
   background-color: $bg-hover-active;
   color: $bg-color;
 }
-.menu-item-active{
+
+.menu-item-active {
+  position: relative;
   border-radius: 0 50% 50% 0;
   margin-right: 4px;
   background-color: $bg-hover-active;
   color: $bg-color;
   transition: 0.3s;
+
   :before {
     content: "";
     position: absolute;
     height: 18px;
     width: 10px;
-    top: 23px;
-    left:0;
+    top: auto;
+    bottom: 100%;
+    left: 0;
     border-radius: 0 0 0 10px;
-    background: $bg-color;
     box-shadow: -2px 4px 0px 0px $bg-hover-active;
   }
 
-  :after{
-      content: "";
-      position: absolute;
-      height: 13px;
-      width: 10px;
-      top: 76px;
-      left:0;
-      border-radius: 10px 0 0 0;
-      background: $bg-color;
-      box-shadow: -2px -4px 0px 0px $bg-hover-active;
+  :after {
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 10px;
+    top: 100%;
+    bottom: auto;
+    left: 0;
+    border-radius: 10px 0 0 0;
+    box-shadow: -2px -4px 0px 0px $bg-hover-active;
 
   }
+}
+
+.is-active{
+  position: relative;
+  background-color: $bg-hover-active;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  :before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 10px;
+    top: auto;
+    bottom: 100%;
+    left: 0;
+    border-radius: 0 0 0 10px;
+    box-shadow: -2px 4px 0px 0px $bg-hover-active;
+  }
+
+  :after {
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 10px;
+    top: 100%;
+    bottom: auto;
+    left: 0;
+    border-radius: 10px 0 0 0;
+    box-shadow: -2px -4px 0px 0px $bg-hover-active;
+
+  }
+
 }
 .full-offset {
   inset: 0 !important;
 }
+
 .menu-item-tab {
   color: $bg-color;
   margin-bottom: 1px;
@@ -55,7 +92,8 @@
 
 .menu-scrollable-items {
   position: relative;
-  :before,:after {
+
+  :before, :after {
     content: "";
     position: absolute;
     height: 35px;
@@ -80,17 +118,19 @@
   writing-mode: tb;
   display: flex;
   flex-direction: row-reverse;
-  padding: 10px 3px;
+  padding: 10px 4px 8px 6px;
 }
 
 .hide-scroll {
   ::-webkit-scrollbar {
     display: none;
   }
+
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-.kvc{
+
+.kvc {
   justify-content: center;
   padding: 2px 0 5px;
   display: flex;
